@@ -1,0 +1,11 @@
+/**
+ * @authors Guo Jingan (gja1026@163.com)
+ * @date    2018-01-25
+ * @intro   这些小demo中的一些公共css样式  
+ */
+header{
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 3px solid #A09999;
+}

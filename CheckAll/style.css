@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * @authors Guo Jingan (gja1026@163.com)
+ * @date    2018-02-15
+ */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#myForm{
+	width: 30%;
+	margin: 30px auto;
+}
+
+.button{
+    height: 24px;
+    width: 60px;
+    margin-right: 20px;
+}
+.button:hover{
+   color: #7B5252;
+}
+
+input[type=checkbox],
+label{
+    cursor: pointer;
+}

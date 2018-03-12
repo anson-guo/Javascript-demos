@@ -1,0 +1,40 @@
+﻿<!--
+    @authors Guo Jingan (gja1026@163.com)
+    @date    2018-02-15
+    @intro 	 全选功能
+!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>全选功能练习(CheckAll)</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../commonCSS.css">
+	<script src="checkAll.js"></script>
+</head>
+<body>
+	<header>
+		<p>全选功能</p>
+	</header>
+	<form id="myForm" action="#" method="post">
+		请选择您的兴趣爱好：
+		<input type="checkbox" id="checkOrCancelAll"><label for="checkOrCancelAll">全选/取消全选</label>
+
+		<br><br>
+
+		<input type="checkbox" name="item" id="football" value="足球"><label for="football">足球</label>
+		<input type="checkbox" name="item" id="running" value="跑步"><label for="running">跑步</label>
+		<input type="checkbox" name="item" id="swimming" value="游泳"><label for="swimming">游泳</label>
+		<input type="checkbox" name="item" id="reading" value="阅读"><label for="reading">阅读</label>
+		<input type="checkbox" name="item" id="coding" value="写代码"><label for="coding">写代码</label>
+
+		<br><br>
+		
+		<input type="button" class="button" name="choice" id="checkAll" value="全选">
+		<input type="button" class="button" name="choice" id="invert" value="反选">
+		<input type="button" class="button" name="choice" id="reset" value="复位">
+		<input type="button" class="button" id="submit" value="提交">
+
+	</form>
+</body>
+</html>
