@@ -1,0 +1,29 @@
+<!--
+    @authors Guo Jingan (gja1026@163.com)
+    @date    2018-03-01
+    @intro   简单的图片翻页功能，可以自动播放、暂停等，基于原生js实现
+!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单的图片切换</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../commonCSS.css">
+    <script type="text/javascript" src="changePic.js"></script>
+</head>
+<body>
+    <header>
+        <p>图片切换效果</p>
+    </header>
+    <div class="container">
+        <p>
+            当前第<strong><span>1</span></strong>张图片，一共<strong><span>5</span></strong>张
+        </p>
+        <img src="img/dog01.jpg">
+        <button id="autoPlay">开启自动播放</button>
+        <button id="previousBtn">上一张</button>
+        <button id="nextBtn">下一张</button>
+    </div>
+</body>
+</html>

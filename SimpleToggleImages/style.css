@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * @authors Guo Jingan (gja1026@163.com)
+ * @date    2018-03-01
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 580px;
+     
+    margin: 30px auto;
+    padding: 15px 5px;
+    background: #3C3636;
+    text-align: center;
+}   
+.container button{
+    width: 100px;
+    height: 25px;
+}
+.container p{
+    margin-bottom: 10px;
+    color: #ADA2A2;
+}
+.container span{
+    color: #EFEFEF;
+}
