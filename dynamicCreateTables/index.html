@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动态生成表格</title>
+    <link rel="stylesheet" href="../commonCSS.css">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+
+        table td, 
+        table tr,
+        table th {
+            width: 100px;
+            border: 1px solid black;
+        }
+
+        .info {
+            margin-top: 30px;
+        }
+    </style>
+    <script src="table.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>动态生成表格</p>
+    </header>
+
+    <div class="info" id="creatTable">
+        <span>创建表格的信息，</span>
+        行数：
+        <input type="text" id="row" value="" placeholder="输入行数"> 
+        列数：
+        <input type="text" id="column" value="" placeholder="输入列数">
+        <input type="button" id="submit" value="生成表格">
+        <input type="button" id="delete" value="删除表格">
+    </div>
+
+</body>
+
+</html>
